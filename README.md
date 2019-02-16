@@ -5,6 +5,8 @@ A [Clappr](https://github.com/clappr/clappr) UI plugin to select sources.
   <img src="https://raw.githubusercontent.com/spreadspace/clappr-source-selector/master/images/example.png" alt="Clappr Source Selector"/>
 </p>
 
+This is loosly based on the level-selector plugin and was quickly hacked together for a project of mine. Chances are that there are better ways to do what i do here. Also i'm by no means a frontend developer. Therefore my knowledge of npm, webpack and all the other stuff, that seems to be all the rage these days, is very limited. Feel free to send pull requests or open issues but it might take me a while to respond...
+
 ## Usage
 
 ```html
