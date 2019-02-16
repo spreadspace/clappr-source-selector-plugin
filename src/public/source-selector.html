@@ -1,0 +1,8 @@
+<button data-source-selector-button>
+  Source
+</button>
+<ul>
+  <% for (var i = 0; i < sources.length; i++) { %>
+    <li><a href="#" data-source-selector-select="<%= i %>"><%= sources[i].label %></a></li>
+  <% }; %>
+</ul>

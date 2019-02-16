@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <script type="text/javascript" charset="utf-8" src="https://cdn.jsdelivr.net/npm/clappr/dist/clappr.min.js"></script>
+  <script type="text/javascript" charset="utf-8" src="/latest/source-selector.js"></script>
+  <title>clappr-source-selector-plugin Test Page</title>
+  <script type="text/javascript" charset="utf-8">
+  window.onload = function() {
+  var player = new Clappr.Player({
+    source: 'http://www.example.com/hls/orig.m3u8',
+    parentId: '#player-wrapper',
+
+    plugins: [SourceSelector],
+    sourceSelectorConfig: { sources: [
+      { label: 'Original', source: 'http://streaming.example.com/hls/orig.m3u8' },
+      { label: 'English', source: 'http://streaming.example.com/hls/en.m3u8' },
+      { label: 'Deutsch', source: 'http://streaming.example.com/hls/dt.m3u8' }
+    ]}
+  });
+}
+  </script>
+</head>
+<body>
+  <div align="center">
+    <div id="player-wrapper">
+  </div>
+  </div>
+</body>
+</html>
